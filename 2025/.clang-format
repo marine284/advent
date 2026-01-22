@@ -1,0 +1,13 @@
+---
+BasedOnStyle: LLVM
+AlignEscapedNewlines: Left
+AllowShortFunctionsOnASingleLine: All
+AllowShortBlocksOnASingleLine: Always
+AlwaysBreakAfterReturnType: All
+BreakBeforeBraces: Attach
+ColumnLimit: 100
+Cpp11BracedListStyle: false
+IndentCaseLabels: true
+IndentWidth: 4
+PointerAlignment: Right
+...
