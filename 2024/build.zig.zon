@@ -1,0 +1,17 @@
+.{
+    .name = ._2024,
+    .version = "0.0.0",
+    .fingerprint = 0xceecda79171aef97,
+    .minimum_zig_version = "0.15.1",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+    .dependencies = .{
+        .anycast = .{
+            .url = "git+https://github.com/jnordwick/anycast/#0108df7c2d5e6ca0f68b68a95f7d585e995b0948",
+            .hash = "anycast-0.0.0-pnpexzwVAADteOADJOIMhB_R0Plnbc6FEXF7Tj5EiTN2",
+        },
+    },
+}
